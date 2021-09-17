@@ -1596,8 +1596,8 @@ select:focus {
 
 .single-tikit {
   border-radius: 10px;
-  box-shadow: inset 0px 0px 10px #ffc400;
-  background: #000000;
+  /* box-shadow: inset 0px 0px 10px #ffc400; */
+  /* background: #000000; */
   transition: all 0.3s ease-in;
 }
 .single-tikit .image {
