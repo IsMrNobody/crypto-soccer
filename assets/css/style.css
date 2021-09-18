@@ -128,7 +128,8 @@ select:focus {
   margin: 2px;
 }
 .topm {
-  margin-top: 80px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .logoplay {
   width: 60%;
@@ -243,9 +244,10 @@ select:focus {
   }
 }
 .marco {
-  border: 3px solid white;
+  /* border: 3px solid white; */
   padding: 20px;
-  border-style: dashed;
+  /* border-style: dashed; */
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='10' stroke-dasharray='60' stroke-dashoffset='9' stroke-linecap='square'/%3e%3c/svg%3e");
 }
 /* Global style */
 .mybtn1 {
@@ -343,6 +345,22 @@ select:focus {
 .preloader.hide {
   opacity: 0;
   display: none;
+}
+.capt {
+  transition: 1s;
+  margin-top: 80px;
+}
+.capt:hover {
+  transition: 1s;
+  margin-top: -10px;
+}
+.zoico {
+  transform: scale(0.9);
+  transition: 0.8s;
+}
+.zoico:hover {
+  transition: 0.6s;
+  transform: scale(1);
 }
 
 .loader {
@@ -3757,7 +3775,7 @@ select:focus {
 }
 
 .raffles-details {
-  background: #1f0644;
+  background: #2e4406;
   padding: 120px 0px 0px;
 }
 .raffles-details .all-slider {
