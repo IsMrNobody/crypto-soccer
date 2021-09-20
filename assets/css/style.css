@@ -1251,7 +1251,7 @@ select:focus {
 }
 .hero-area .shape {
   position: absolute;
-  left: 8%;
+  /* left: 8%; */
   top: 20%;
 }
 .hero-area .content {
@@ -1321,15 +1321,17 @@ select:focus {
   position: relative;
 }
 .hero-area.hero-area2 .shape {
-  position: absolute;
-  left: 8%;
-  top: 20%;
+  /* position: absolute; */
+  /* background: url(../images/home/h2-shape.png); */
+  /* background-size: cover; */
+  /* left: 8%;
+  top: 20%; */
 }
 .hero-area.hero-area2 .content {
   text-align: left;
 }
 .hero-area.hero-area2.hero-area3 {
-  background: url(../images/home/h3.jpg);
+  /* background: url(../images/home/h3.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1347,6 +1349,7 @@ select:focus {
 }
 .hero-area.hero-area2.hero-area4 .content {
   text-align: center;
+  top: 220px;
 }
 .hero-area.hero-area2.hero-area5 {
   background: url(../images/home/h5.jpg);
