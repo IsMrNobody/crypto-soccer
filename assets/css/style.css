@@ -111,7 +111,6 @@ select:focus {
 
 .bg-capture {
   background-color: black;
-  padding: 80px;
 }
 .margip {
   padding-bottom: 30px;
@@ -120,7 +119,7 @@ select:focus {
   position: relative;
 }
 .parrafo1 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -348,11 +347,11 @@ select:focus {
 }
 .capt {
   transition: 1s;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .capt:hover {
   transition: 1s;
-  margin-top: -10px;
+  margin-top: -2px;
 }
 .zoico {
   transform: scale(0.9);
