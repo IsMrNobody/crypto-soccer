@@ -349,6 +349,9 @@ select:focus {
   transition: 1s;
   margin-top: 60px;
 }
+.txspan {
+  color: white;
+}
 .capt:hover {
   transition: 1s;
   margin-top: -2px;
